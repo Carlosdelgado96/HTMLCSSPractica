@@ -4,3 +4,16 @@ body {
     background-size: cover;
     
 }
+
+#h1header{
+    font-family: 'Lato', sans-serif;
+    color: rgb(25, 35, 231);
+    text-shadow: 3cap;
+    text-decoration: overline;
+}
+#pheader {
+    font-family: 'Lato', sans-serif;
+    color: rgb(243, 243, 243);
+    text-shadow: 3cap;
+    text-decoration: underline;
+}
