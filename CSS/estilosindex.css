@@ -2,18 +2,69 @@ body {
     background-image: url(../IMG/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#cabecera {
+    position: fixed;
+    left: 39%;
+    
+}
+#h1header{
+    font-family: 'Honk', system-ui;
+    color: rgb(25, 35, 231);
+    text-shadow: 3cap;
+    position: relative;
+   right: 220px;
+    width: 100%;
+    font-size: 70px;
+   
+}
+#pheader {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 243, 243);
+    text-shadow: 3cap;
+    float: left;
+    position: relative;
+    right: 120px;
+    bottom: 50px;
     
 }
 
-#h1header{
-    font-family: 'Lato', sans-serif;
-    color: rgb(25, 35, 231);
-    text-shadow: 3cap;
-    text-decoration: overline;
-}
-#pheader {
-    font-family: 'Lato', sans-serif;
+#pheader2 {
+    font-family: fantasy;
     color: rgb(243, 243, 243);
     text-shadow: 3cap;
-    text-decoration: underline;
+    float: left;
+    position: absolute;
+    left: 180px;
+    bottom: 47px;
+    
+}
+nav {
+    background-color: rgb(60, 23, 169);
+    position: relative;
+    width: 30%;
+    top: 170px;
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+    left: 35%;
+}
+
+nav, ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10%;
+    padding: 0px;
+    background-color: rgb(197, 218, 237);
+}
+
+
+li {
+    margin-left: 40px;
+    float: left;
 }
