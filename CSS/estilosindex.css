@@ -5,8 +5,8 @@
 body {
     background-image: url(../IMG/logo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+    background-size: 100%;
+    
 }
 header {
     position: fixed;
@@ -79,4 +79,15 @@ li:hover {
     
     color: antiquewhite;
 }
+.divanuncio1{
+    
+}
+#anuncio1{
+    width: 10%;
+    height: 900px;
+}
 
+#anuncio2 {
+    width: 9%;
+    height: 900px;
+}
