@@ -2,15 +2,23 @@
     font-family: GayoLand;
     src: url(../fonts/Gayo\ Land.ttf);
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 body {
     background-image: url(../IMG/logo.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
+   
     
 }
 header {
     position: fixed;
-    top: 0;
+    
     width: 100%;
 }
 #cabecera {
@@ -34,7 +42,6 @@ header {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(243, 243, 243);
     text-shadow: 3px 4px 2px rgb(230, 167, 255);
-    
     float: left;
     position: relative;
     right: 130px;
@@ -56,12 +63,14 @@ nav {
     transition: background-color 1s linear 1s, transform 1s;
     background-color: rgb(60, 23, 169);
     position: relative;
-    width: 27%;
+    width: 30%;
     top: 190px;
     display: flex;
     justify-content: space-around; 
-    text-align: center;
+    
     left: 35%;
+    height: 80px;
+    
 }
 nav:hover {
     background-color: rgb(55, 132, 204);
@@ -69,7 +78,7 @@ nav:hover {
 }
 nav, ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 10%;
+    height: 6%;
     padding: 0px;
     background-color: rgb(55, 132, 204);
     display: inline-block;
@@ -95,9 +104,9 @@ a:hover {
     
     
 }
-#anuncio1{
-    width: 9%;
-    height: 1000px;
+.anuncio1{
+    width: 5%;
+    height: 200px;
     transition: background-color 1s linear 1s, transform 1s;
 }
 
@@ -105,7 +114,7 @@ a:hover {
     width: 9%;
     height: 400px;
 }
-#anuncio1:hover{
+.anuncio1:hover{
     background-color: rgb(55, 132, 204);
     transform: rotateY(150deg);
 }
@@ -114,5 +123,20 @@ a:hover {
     position: relative;
     left: 90%;
     bottom: 500px;
-    float: left;
+}
+
+
+.articulo {
+    width: 25%;
+    color: rgb(224, 224, 224);
+    position: absolute;
+    top: 36%;
+    left: 42%;
+    font-family: Gayoland, system-ui;
+}
+.articulo1, p{
+    color: rgb(92, 92, 255);
+}
+.articulo2 {
+    color: aliceblue;
 }
