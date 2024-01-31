@@ -27,12 +27,14 @@ header {
     right: 100px;
     width: 100%;
     font-size: 70px;
+    
    
 }
 #pheader {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(243, 243, 243);
-    text-shadow: 3cap;
+    text-shadow: 3px 4px 2px rgb(230, 167, 255);
+    
     float: left;
     position: relative;
     right: 130px;
@@ -51,6 +53,7 @@ header {
     
 }
 nav {
+    transition: background-color 1s linear 1s, transform 1s;
     background-color: rgb(60, 23, 169);
     position: relative;
     width: 27%;
@@ -60,34 +63,56 @@ nav {
     text-align: center;
     left: 35%;
 }
-
+nav:hover {
+    background-color: rgb(55, 132, 204);
+    transform: rotateY(20deg);
+}
 nav, ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 10%;
     padding: 0px;
     background-color: rgb(55, 132, 204);
-    list-style-type: none;
+    display: inline-block;
 }
 
 
 li {
     margin-left: 40px;
     display: inline;
-}
 
-li:hover {
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
     
     color: antiquewhite;
 }
 .divanuncio1{
+    float: left;
+    width: 100%;
+    
     
 }
 #anuncio1{
-    width: 10%;
-    height: 900px;
+    width: 9%;
+    height: 1000px;
+    transition: background-color 1s linear 1s, transform 1s;
 }
 
 #anuncio2 {
     width: 9%;
-    height: 900px;
+    height: 400px;
+}
+#anuncio1:hover{
+    background-color: rgb(55, 132, 204);
+    transform: rotateY(150deg);
+}
+.divanuncio2 {
+    width: 100%;
+    position: relative;
+    left: 90%;
+    bottom: 500px;
+    float: left;
 }
