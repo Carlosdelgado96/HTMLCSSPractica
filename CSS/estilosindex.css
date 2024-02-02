@@ -2,6 +2,10 @@
     font-family: GayoLand;
     src: url(../fonts/Gayo\ Land.ttf);
 }
+@font-face {
+    font-family: ProtestStrike-Regular;
+    src: url(../fonts/ProtestStrike-Regular.ttf);
+}
 body, html {
     height: 100%;
     margin: 0;
@@ -63,7 +67,7 @@ nav {
     transition: background-color 1s linear 1s, transform 1s;
     background-color: rgb(60, 23, 169);
     position: relative;
-    width: 24%;
+    width: 34%;
     top: 190px;
     display: flex;
     justify-content: space-around; 
@@ -108,7 +112,15 @@ a:hover {
     height: 200px;
     transition: background-color 1s linear 1s, transform 1s;
 }
-
+.anuncio2 {
+    width: 5%;
+    height: 200px;
+    transition: background-color 1s linear 1s, transform 1s;
+}
+.anuncio2:hover{
+    background-color: rgb(55, 132, 204);
+    transform: rotateX(150deg);
+}
 #anuncio2 {
     width: 9%;
     height: 400px;
@@ -145,3 +157,83 @@ aside {
 footer {
     margin-left: 50%;
 }
+#section {
+    margin-left: 5%;
+}
+.articulo2 {
+    width: 40%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: aliceblue;
+    transition: transform 0.8s; /* Agregada la transición al div entero */
+    overflow: hidden; /* Evita que el contenido se desborde y afecte el scroll */
+    float: left;
+}
+
+.articulo2 h1 {
+    font-family: ProtestStrike-Regular;
+    color: #3281ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.articulo2 p {
+    font-family: ProtestStrike-Regular;
+    color: #812121;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.articulo2 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.articulo2:hover {
+    color: aqua;
+    transform: scale(1.05); /* Puedes ajustar el valor según tus preferencias */
+}
+
+.articulo3 {
+    float: right;
+    width: 45%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    background-color: #ffffff;
+    transition: transform 0.3s; 
+    overflow: hidden; 
+}
+
+.articulo3 h1 {
+    font-family: 'ProtestStrike-Regular', sans-serif;
+    color: #1a1a1a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.camiseta {
+    width: 23%;
+    
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.camiseta:hover {
+    transform: scale(1.2); 
+}
+.camiseta4 {
+    width: 23%;
+    margin-left: 10px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.camiseta4:hover {
+    transform: scale(1.2); 
+}
+
