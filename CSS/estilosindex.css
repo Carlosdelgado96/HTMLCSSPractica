@@ -145,17 +145,17 @@ aside {
 }
 
 .articulo {
-    border-radius: 8px;
+    
     max-width: 300px;
-    background-color: #0f0044;
-    width: 25%;
-    height: 32%;
+    
+    width: 15%;
+    height: 34%;
     color: rgb(224, 224, 224);
     position: absolute;
     top: 36%;
-    left: 42%;
+    left: 43%;
     font-family: Gayoland, system-ui;
-    border: 2px solid #fff; 
+     
     padding: 10px; 
     text-shadow: 2px 1px 2px rgb(230, 167, 255);
     transition: background-color 1s linear 1s, transform 1s;
