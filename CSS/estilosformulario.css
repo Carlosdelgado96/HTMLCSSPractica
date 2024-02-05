@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    
+    width: 100%;
+}
+#cabecera {
+    position: fixed;
+    
+    left: 42%;
+    
+}
+.h1header{
+    font-family: Gayoland, system-ui;
+    color: rgb(211, 211, 211);
+    text-shadow: 3cap;
+    position: relative;
+    right: 100px;
+    width: 100%;
+    font-size: 70px;
+    
+   
+}
+#pheader {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(243, 243, 243);
+     text-shadow: 3px 4px 2px rgb(230, 167, 255);
+     float: left;
+     position: relative;
+     right: 130px;
+     bottom: 50px;
+     
+ }
+ 
+ #pheader2 {
+     font-family: fantasy;
+     color: rgb(243, 243, 243);
+     text-shadow: 3cap;
+     float: left;
+     position: absolute;
+     left: 180px;
+     bottom: 47px;
+     
+ }
