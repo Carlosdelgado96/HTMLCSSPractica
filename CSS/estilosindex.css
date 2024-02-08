@@ -11,12 +11,15 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    
 }
 body {
     background-image: url(../IMG/logo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
+    min-height: 100vh;
+    
    
     
 }
@@ -232,7 +235,7 @@ footer {
 
 .articulo3 {
     float: right;
-    width: 45%;
+    width: 35%;
     border: 2px solid #ddd;
     padding: 20px;
     margin: 20px;
@@ -282,15 +285,35 @@ footer {
 .referencias2 {
     position: relative;
     top: 50px;
+    width: 25%;
+    float: left;
+    
+}
+.referencias3 {
+    position: relative;
+    top: 50px;
     width: 30%;
     float: left;
     
+}
+.referencias4 {
+    position: relative;
+    top: 10px;
+    width: 25%;
+    float: left;
 }
 #goat {
     width: 63%;
 }
 #goat2 {
-    width: 90%;
+    width: 100%;
+}
+#goat3 {
+    width: 80%;
+}
+#goat4 {
+    width: 70%;
+
 }
 
 
@@ -306,7 +329,7 @@ to {
 @keyframes movimiento2 {
     from {
         transform: translate(0,0);
-        transform: translatex(20px);
+        transform: translateX(20px);
     }
     to {
         transform: translateY(180px);
@@ -326,12 +349,12 @@ to {
     position: absolute;
     width: 10%;
     height: 20%;
-    top: 0;
+    top: 10%;
     left: 0;
     font-family: ProtestStrike-Regular;
     
     
-    color: #FFD700;
+    color: #1900ff;
     border-width: 10%;
     animation: forwards;
     z-index: -1;
@@ -339,6 +362,7 @@ to {
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
+    z-index: -1;
 }
 
 .referencias2::after {
@@ -347,17 +371,124 @@ to {
     top: 20px;
     width: 30%;
     height: 20%;
-    
     left: 160px;
     font-family: ProtestStrike-Regular;
-    
-    
-    color: #FFD700;
+    color: #efefef;
     border-width: 10%;
     animation: forwards;
     z-index: -1;
     animation-name: movimiento2;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
+    z-index: -1;
 }
+
+.referencias3::after {
+    content: 'ALL-STAR 2023';
+    position: absolute;
+    top: 20px;
+    width: 30%;
+    height: 20%;
+    left: 100px;
+    font-family: ProtestStrike-Regular;
+    color: #30e0ff;
+    border-width: 10%;
+    animation: forwards;
+    z-index: -1;
+    animation-name: movimiento2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    z-index: -1;
+}
+
+.referencias4::after {
+    content: 'ALL-STAR 2023';
+    position: absolute;
+    top: 80px;
+    width: 30%;
+    height: 20%;
+    left: 100px;
+    font-family: ProtestStrike-Regular;
+    color: #30e0ff;
+    border-width: 10%;
+    animation: forwards;
+    z-index: -1;
+    animation-name: movimiento2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    z-index: -1;
+   
+}
+
+#goat:hover,
+#goat2:hover,
+#goat3:hover,
+#goat4:hover {
+    transform: scale(1.2);
+    transition: transform 0.8s ease-in-out;
+}
+
+footer {
+    
+    color: white;
+   
+   
+    position: fixed;
+    width: 80%;
+    
+    
+    z-index: 1; 
+}
+#cabecera2 {
+    position: fixed;
+    width: 50%;
+    left: 42%;
+    
+}
+.h1footer2{
+    font-family: Gayoland, system-ui;
+    color: rgb(211, 211, 211);
+    text-shadow: 3cap;
+    position: relative;
+    right: 100px;
+    width: 30%;
+    font-size: 50px;
+    
+   
+}
+#pfooter {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 243, 243);
+    text-shadow: 3px 4px 2px rgb(230, 167, 255);
+    float: left;
+    position: relative;
+    right: 130px;
+    bottom: 50px;
+    
+}
+
+#pfooter2 {
+    font-family: fantasy;
+    color: rgb(243, 243, 243);
+    text-shadow: 3cap;
+    float: left;
+    position: absolute;
+    left: 180px;
+    bottom: 47px;
+    
+}
+
+.video{
+    position: absolute;
+    left: 50%;
+
+    width: 50%;
+}
+
+#otraseccion {
+    width: 50%;
+}
+
